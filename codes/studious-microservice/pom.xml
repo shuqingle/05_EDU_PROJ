@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ape-admin</module>
+        <module>studious-managend</module>
         <module>ape-common</module>
         <module>ape-framework</module>
         <module>ape-quartz</module>
