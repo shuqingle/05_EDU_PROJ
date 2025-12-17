@@ -14,7 +14,6 @@
         <module>ape-admin</module>
         <module>ape-common</module>
         <module>ape-framework</module>
-        <module>ape-generator</module>
         <module>ape-quartz</module>
         <module>ape-system</module>
     </modules>

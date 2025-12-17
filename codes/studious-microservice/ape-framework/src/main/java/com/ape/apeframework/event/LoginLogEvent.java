@@ -1,7 +1,6 @@
 package com.ape.apeframework.event;
 
 import com.ape.apesystem.domain.ApeLoginLog;
-import com.ape.apesystem.domain.ApeOperateLog;
 import org.springframework.context.ApplicationEvent;
 
 /**
