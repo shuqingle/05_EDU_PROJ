@@ -12,7 +12,7 @@
 
     <modules>
         <module>studious-managend</module>
-        <module>ape-common</module>
+        <module>studious-common</module>
         <module>ape-framework</module>
         <module>ape-quartz</module>
         <module>ape-system</module>
