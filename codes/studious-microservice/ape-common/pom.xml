@@ -8,7 +8,7 @@
     <description>系统公共模块</description>
 
     <parent>
-        <artifactId>BACK_STAGE_SERVER</artifactId>
+        <artifactId>studious-microservice</artifactId>
         <groupId>com.ape</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

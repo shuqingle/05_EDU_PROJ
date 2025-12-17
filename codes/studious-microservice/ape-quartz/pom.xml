@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>ape-generator</artifactId>
+    <artifactId>ape-quartz</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ape-generator</name>
-    <description>系统代码生产</description>
+    <name>ape-quartz</name>
+    <description>系统定时任务</description>
 
     <parent>
-        <artifactId>BACK_STAGE_SERVER</artifactId>
+        <artifactId>studious-microservice</artifactId>
         <groupId>com.ape</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -21,11 +21,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.ape</groupId>
-            <artifactId>ape-system</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
     </dependencies>
 
     <build>
