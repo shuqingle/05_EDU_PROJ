@@ -1,9 +1,10 @@
 package com.stu.common.utils;
 
-import com.sugo.resident.commonapi.enumInfo.ResultCodeInfo;
-import com.sugo.resident.commonapi.enumInfo.ResultCodeInterface;
-import com.sugo.resident.commonapi.model.response.ObjectResponse;
-import com.sugo.resident.commonapi.model.response.TableResponse;
+
+import com.stu.common.enumInfo.ResultCodeInfo;
+import com.stu.common.enumInfo.ResultCodeInterface;
+import com.stu.common.model.response.ObjectResponse;
+import com.stu.common.model.response.TableResponse;
 
 import java.util.List;
 

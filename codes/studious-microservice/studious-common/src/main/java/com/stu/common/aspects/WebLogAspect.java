@@ -1,5 +1,6 @@
 package com.stu.common.aspects;
 
+import com.alibaba.fastjson2.JSONObject;
 import com.stu.common.annotation.WebLog;
 import com.stu.common.model.request.BaseRequestDto;
 import lombok.extern.slf4j.Slf4j;
@@ -69,7 +70,7 @@ public class WebLogAspect {
 //                    log.info("请求入参   : {}", "请求发起人编号："+ JwtUtil.getUserNo(request1)+",请求发起人名称: "+JwtUtil.getUsername(request1));
                 }
                 if(obj instanceof BaseRequestDto){
-                    log.info("请求入参   : {}", new Gson().toJson(obj));
+                    log.info("请求入参   : {}", JSONObject.toJSONString(obj));
                 }
 
             }
@@ -90,7 +91,7 @@ public class WebLogAspect {
         long startTime = System.currentTimeMillis();
         Object result = proceedingJoinPoint.proceed();
         // 打印出参
-        log.info("请求出参  : {}", new Gson().toJson(result));
+        log.info("请求出参  : {}", JSONObject.toJSONString(result));
         // 执行耗时
         log.info("本次请求耗时 : {} ms", System.currentTimeMillis() - startTime);
         String methodDescription = getAspectLogDescription(proceedingJoinPoint);
